@@ -1,3 +1,4 @@
-const webserver = require('./webserver');
+require('dotenv').config();
+require('./webserver');
 
-// everything in the import happens before 
+// everything in the import happens before
